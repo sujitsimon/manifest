@@ -1,3 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+    <default revision="develop" remote="github" sync-j="4"/>
+    <!-- Setting Remote Protocol-->
+    <remote name="github" fetch="https://github.com/sujitsimon/"/>
+    <!-- Project Repos-->
+    <project path="utils" name="android-christmas-gift-utils"/>
+    <project path="server" name="android-christmas-gift-server"/>
+    <project path="app" name="android-christmas-gift-app"/>
 </manifest>
